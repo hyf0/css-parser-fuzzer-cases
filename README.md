@@ -65,7 +65,7 @@ Run the fuzzer verifier after changing cases:
 vp run verify-cases -- --dir ../css-parser-fuzzer-cases/cases --readme ../css-parser-fuzzer-cases/README.md --timeout-ms 1500 --check-minimized --minimize-attempts 80
 ```
 
-The verifier checks sidecar note coverage, sidecar reproduction blocks, sidecar required headings, sidecar title IDs, README coverage, stale links, unique case listing, case ID filename prefixes, High/Medium/Low priority grouping, priority folder consistency, complete README and sidecar parser matrix coverage, parser matrix drift, continued parser disagreement, and whether the current structure-level reducer can still produce a shorter case with the same parser-result fingerprint. For recognized issue families, the reducer must preserve that family as well as the parser fingerprint.
+The verifier checks sidecar note coverage, sidecar reproduction blocks, sidecar required headings with non-empty `Spec Context` or `Triage Note` explanatory text, sidecar title IDs, README coverage, stale links, unique case listing, case ID filename prefixes, High/Medium/Low priority grouping, priority folder consistency, complete README and sidecar parser matrix coverage, parser matrix drift, continued parser disagreement, and whether the current structure-level reducer can still produce a shorter case with the same parser-result fingerprint. For recognized issue families, the reducer must preserve that family as well as the parser fingerprint.
 
 ## Triage Rules
 
