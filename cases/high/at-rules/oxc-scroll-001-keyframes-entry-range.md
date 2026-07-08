@@ -3,7 +3,7 @@
 ## Minimal Reproduction
 
 ```css
-@keyframes k { entry 0% { opacity: 0; } }
+@keyframes k{entry 0%{}}
 ```
 
 ## Parser Results

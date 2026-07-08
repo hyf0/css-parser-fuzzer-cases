@@ -3,7 +3,7 @@
 ## Minimal Reproduction
 
 ```css
-@media (example, all,), speech { color: red; } @media &test, speech { /* only applicable to speech devices */ }
+@media(a,),b{c:d}@media&{}
 ```
 
 ## Parser Results

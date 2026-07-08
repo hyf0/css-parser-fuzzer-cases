@@ -3,7 +3,7 @@
 ## Minimal Reproduction
 
 ```css
-.foo { var(--side): 20px; }
+a{var(--x):;}
 ```
 
 ## Parser Results

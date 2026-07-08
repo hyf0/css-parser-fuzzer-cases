@@ -3,7 +3,7 @@
 ## Minimal Reproduction
 
 ```css
-@scope () { a { color: red; } }
+@scope(){a{color:red}}
 ```
 
 ## Roundtrip Trigger

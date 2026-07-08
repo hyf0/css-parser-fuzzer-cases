@@ -3,7 +3,7 @@
 ## Minimal Reproduction
 
 ```css
-@media test;
+@media t;
 ```
 
 ## Parser Results

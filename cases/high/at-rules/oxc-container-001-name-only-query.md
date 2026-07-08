@@ -3,7 +3,7 @@
 ## Minimal Reproduction
 
 ```css
-@container my-page-layout { .card { padding: 1em; } }
+@container c{}
 ```
 
 ## Parser Results

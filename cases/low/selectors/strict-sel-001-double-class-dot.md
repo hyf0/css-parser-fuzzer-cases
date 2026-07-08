@@ -3,7 +3,7 @@
 ## Minimal Reproduction
 
 ```css
-.a..b { color: red; }
+.a..b{}
 ```
 
 ## Parser Results

@@ -3,7 +3,7 @@
 ## Minimal Reproduction
 
 ```css
-x-tabs::part(tab active) { color: red; }
+::part(a b){}
 ```
 
 ## Parser Results

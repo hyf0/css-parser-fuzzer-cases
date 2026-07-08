@@ -3,7 +3,7 @@
 ## Minimal Reproduction
 
 ```css
-.anchored { @container anchored(fallback: bottom any) { .inner { color: lime; } } }
+a{@container anchored(fallback:bottom any){b{c:d}}}
 ```
 
 ## Parser Results

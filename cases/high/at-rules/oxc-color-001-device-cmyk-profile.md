@@ -3,7 +3,7 @@
 ## Minimal Reproduction
 
 ```css
-@color-profile device-cmyk { color: red; }
+@color-profile device-cmyk{a:b}
 ```
 
 ## Parser Results

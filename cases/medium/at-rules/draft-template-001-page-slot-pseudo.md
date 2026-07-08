@@ -3,7 +3,7 @@
 ## Minimal Reproduction
 
 ```css
-@page::slot(g) { color: red; }
+@page::slot(g){}
 ```
 
 ## Parser Results
