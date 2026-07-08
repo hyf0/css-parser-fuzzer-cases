@@ -3,7 +3,7 @@
 ## Minimal Reproduction
 
 ```css
-@page:left { @top { color: red; } }
+@page{@top{}}
 ```
 
 ## Parser Results
@@ -17,4 +17,4 @@
 
 ## Triage Note
 
-The broader CSS Content Level 3 spec corpus includes `@top` nested inside `@page:left` and `@page:right` examples. Keep as a medium-priority draft page-margin syntax case because implementation status is less clear than the core CSS Page margin boxes such as `@top-left`.
+The broader CSS Content Level 3 spec corpus includes `@top` nested inside `@page:left` and `@page:right` examples. This minimized case keeps only the nested `@top` rule shape inside `@page`; keep it as a medium-priority draft page-margin syntax case because implementation status is less clear than the core CSS Page margin boxes such as `@top-left`.

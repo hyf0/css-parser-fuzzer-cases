@@ -3,7 +3,7 @@
 ## Minimal Reproduction
 
 ```css
-.spec-example { font-family: Ahem!, sans-serif; }
+a{font-family:Ahem!}
 ```
 
 ## Parser Results

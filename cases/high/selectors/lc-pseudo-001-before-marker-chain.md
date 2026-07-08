@@ -3,7 +3,7 @@
 ## Minimal Reproduction
 
 ```css
-#target::before::marker { color: red; }
+::before::marker{}
 ```
 
 ## Parser Results

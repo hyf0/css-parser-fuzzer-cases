@@ -3,7 +3,7 @@
 ## Minimal Reproduction
 
 ```css
-@container card (inline-size > 30em), style(--responsive: true) { color: red; }
+@container a (width > 0), style(--x:y){}
 ```
 
 ## Parser Results

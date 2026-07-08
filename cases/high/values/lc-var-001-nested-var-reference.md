@@ -3,7 +3,7 @@
 ## Minimal Reproduction
 
 ```css
-:root { --result: var(var(--myvar)); }
+a{b:var(var(--x))}
 ```
 
 ## Parser Results

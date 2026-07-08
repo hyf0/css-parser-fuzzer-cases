@@ -3,7 +3,7 @@
 ## Minimal Reproduction
 
 ```css
-@import url("card.css") scope(.card);
+@import url("x") scope(a);
 ```
 
 ## Parser Results

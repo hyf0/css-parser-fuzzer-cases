@@ -3,7 +3,7 @@
 ## Minimal Reproduction
 
 ```css
-@property --x { syntax: "<length>"; inherits: true; initial-value: color-mix(in oklab, red 30%, blue); }
+@property --x{syntax:"<length>";inherits:true;initial-value:color-mix()}
 ```
 
 ## Parser Results

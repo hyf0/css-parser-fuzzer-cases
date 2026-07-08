@@ -3,7 +3,7 @@
 ## Minimal Reproduction
 
 ```css
-@media (min-width > 1024px) { color: red; }
+@media(min-width>0){}
 ```
 
 ## Parser Results

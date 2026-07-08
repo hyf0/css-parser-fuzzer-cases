@@ -3,7 +3,7 @@
 ## Minimal Reproduction
 
 ```css
-@scope (#my-component) { > p { color: green; } }
+@scope(a){>b{}}
 ```
 
 ## Parser Results

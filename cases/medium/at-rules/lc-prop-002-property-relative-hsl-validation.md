@@ -3,7 +3,7 @@
 ## Minimal Reproduction
 
 ```css
-@property --x { syntax: "<length>"; inherits: false; initial-value: hsl(from var(--accent) h s calc(l + 10%)); }
+@property --x{syntax:"<length>";inherits:false;initial-value:hsl(r()c())}
 ```
 
 ## Parser Results

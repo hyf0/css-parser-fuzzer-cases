@@ -3,7 +3,7 @@
 ## Minimal Reproduction
 
 ```css
-@property --x { syntax: "<length>"; inherits: false; initial-value: rgb(20 40 60 / 80%); }
+@property --x{syntax:"<length>";inherits:false;initial-value:rgb()}
 ```
 
 ## Parser Results

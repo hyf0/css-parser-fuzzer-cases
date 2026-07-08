@@ -3,7 +3,7 @@
 ## Minimal Reproduction
 
 ```css
-@container (width > var(--query)) { color: red; }
+@container(width>var(--x)){}
 ```
 
 ## Parser Results

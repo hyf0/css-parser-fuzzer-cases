@@ -1,1 +1,1 @@
-:root { --result: var(var(--myvar)); }
+a{b:var(var(--x))}

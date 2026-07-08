@@ -3,7 +3,7 @@
 ## Minimal Reproduction
 
 ```css
-@property --x { syntax: "<color>"; inherits: false; initial-value: calc(1rem + 2px); }
+@property --x{syntax:"<color>";inherits:false;initial-value:calc()}
 ```
 
 ## Parser Results
@@ -24,8 +24,8 @@ CSS Properties and Values API Level 1 says an `@property` rule with a non-univer
 Run from `../css-fuzzer` after `vp install` and `vp run build:oxc-driver`:
 
 ```sh
-printf '@property --x { syntax: "<color>"; inherits: false; initial-value: calc(1rem + 2px); }' | vp exec tsx src/parsers/jsParserWorker.ts --parser postcss
-printf '@property --x { syntax: "<color>"; inherits: false; initial-value: calc(1rem + 2px); }' | vp exec tsx src/parsers/jsParserWorker.ts --parser prettier-css
-printf '@property --x { syntax: "<color>"; inherits: false; initial-value: calc(1rem + 2px); }' | vp exec tsx src/parsers/jsParserWorker.ts --parser lightningcss
-printf '@property --x { syntax: "<color>"; inherits: false; initial-value: calc(1rem + 2px); }' | tools/oxc-css-parser-driver/target/release/oxc-css-parser-driver --syntax css
+printf '@property --x{syntax:"<color>";inherits:false;initial-value:calc()}' | vp exec tsx src/parsers/jsParserWorker.ts --parser postcss
+printf '@property --x{syntax:"<color>";inherits:false;initial-value:calc()}' | vp exec tsx src/parsers/jsParserWorker.ts --parser prettier-css
+printf '@property --x{syntax:"<color>";inherits:false;initial-value:calc()}' | vp exec tsx src/parsers/jsParserWorker.ts --parser lightningcss
+printf '@property --x{syntax:"<color>";inherits:false;initial-value:calc()}' | tools/oxc-css-parser-driver/target/release/oxc-css-parser-driver --syntax css
 ```

@@ -3,7 +3,7 @@
 ## Minimal Reproduction
 
 ```css
-@property --x { syntax: "<color>"; inherits: false; initial-value: 2cqi; }
+@property --x{syntax:"<color>";inherits:false;initial-value:2cqi}
 ```
 
 ## Parser Results

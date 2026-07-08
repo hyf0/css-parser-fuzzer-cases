@@ -3,7 +3,7 @@
 ## Minimal Reproduction
 
 ```css
-a { color: red; } @import url("late.css");
+a{}@import url()
 ```
 
 ## Parser Results

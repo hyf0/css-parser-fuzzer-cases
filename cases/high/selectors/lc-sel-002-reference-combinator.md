@@ -3,7 +3,7 @@
 ## Minimal Reproduction
 
 ```css
-label:is(:hover, :focus) /for/ input { color: red; }
+a /for/ b{}
 ```
 
 ## Parser Results

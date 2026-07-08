@@ -3,7 +3,7 @@
 ## Minimal Reproduction
 
 ```css
-.spec-example { background: url(var(--foo)); }
+a{background:url(var(--x))}
 ```
 
 ## Parser Results
@@ -12,7 +12,7 @@
 | --- | --- |
 | postcss 8.5.16 | accepts |
 | prettier CSS parser 3.9.4 | accepts |
-| lightningcss 1.32.0 | rejects: `Unexpected token BadUrl("var(--foo")` |
+| lightningcss 1.32.0 | rejects: `Unexpected token BadUrl("var(--x")` |
 | oxc-css-parser 0.0.6 (`90911bd`) | accepts |
 
 ## Triage Note

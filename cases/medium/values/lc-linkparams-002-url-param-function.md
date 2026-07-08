@@ -3,7 +3,7 @@
 ## Minimal Reproduction
 
 ```css
-.foo { background-image: url("image.svg" param(--color, green)); }
+a{b:url(""param())}
 ```
 
 ## Parser Results
@@ -17,4 +17,4 @@
 
 ## Triage Note
 
-CSS Link Parameters Level 1 also includes URL values followed by a `param()` function. lightningcss rejects the function form while postcss, Prettier, and OXC accept the value structure.
+CSS Link Parameters Level 1 also includes URL values followed by a `param()` function. This minimized case keeps the function form while dropping unneeded URL text, names, and parameter values.

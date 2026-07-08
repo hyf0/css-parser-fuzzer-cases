@@ -3,7 +3,7 @@
 ## Minimal Reproduction
 
 ```css
-.foo { background-image: url("image.svg", param(--color, green)); }
+a{b:url("",param())}
 ```
 
 ## Parser Results
@@ -17,4 +17,4 @@
 
 ## Triage Note
 
-CSS Link Parameters Level 1 includes `url("image.svg", param(--color, green))` as a CSS example for passing parameters to linked resources. lightningcss rejects the comma form while the other parsers accept the value structure.
+CSS Link Parameters Level 1 includes URL values with comma-separated `param()` entries for passing parameters to linked resources. This minimized case keeps that comma form while dropping unneeded URL text, names, and parameter values.

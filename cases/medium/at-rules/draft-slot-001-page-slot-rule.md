@@ -3,7 +3,7 @@
 ## Minimal Reproduction
 
 ```css
-@page{@slot a{}}
+@page{@slot{}}
 ```
 
 ## Parser Results
