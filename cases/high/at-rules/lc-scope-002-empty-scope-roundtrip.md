@@ -1,4 +1,4 @@
-# LC-SCOPE-002: lightningcss emits an empty `@scope` root from a column-combinator scope
+# LC-SCOPE-002: OXC rejects a lightningcss-emitted empty `@scope` root
 
 ## Minimal Reproduction
 
