@@ -1,6 +1,6 @@
 # CSS Parser Fuzzer Cases
 
-This repository collects minimized parser disagreement cases found by `css-fuzzer`.
+This repository collects minimized parser disagreement cases found by [`css-fuzzer`](https://github.com/hyf0/css-fuzzer).
 
 Current verified parser versions:
 
@@ -43,7 +43,7 @@ Only cases where `oxc-css-parser` is ❌ are listed below. OXC clean-accept case
 
 ## Verification
 
-Run the fuzzer verifier after changing cases:
+Run the fuzzer verifier from a sibling [`css-fuzzer`](https://github.com/hyf0/css-fuzzer) checkout after changing cases:
 
 ```sh
 vp run verify-cases -- --dir ../css-parser-fuzzer-cases/cases --readme ../css-parser-fuzzer-cases/README.md --timeout-ms 1500 --check-minimized --minimize-attempts 80
