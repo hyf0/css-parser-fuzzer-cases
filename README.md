@@ -2,12 +2,12 @@
 
 This repository collects minimized parser disagreement cases found by `css-fuzzer`.
 
-Parser versions for the first run:
+Current verified parser versions:
 
 - postcss: 8.5.16
 - prettier CSS parser: prettier 3.9.4, `__debug.parse(..., { parser: "css" })`
 - lightningcss: 1.32.0
-- oxc-css-parser: 0.0.5 at `oxc-project/oxc-css-parser@e4c405e`
+- oxc-css-parser: 0.0.6 at `oxc-project/oxc-css-parser@90911bd`
 
 ## Parser Symbols
 

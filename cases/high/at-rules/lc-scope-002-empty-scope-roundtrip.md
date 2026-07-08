@@ -23,7 +23,7 @@ It emits the minimal reproduction above. The emitted stylesheet is then accepted
 | postcss 8.5.16 | accepts |
 | prettier CSS parser 3.9.4 | accepts |
 | lightningcss 1.32.0 | accepts |
-| oxc-css-parser 0.0.5 (`e4c405e`) | rejects: `simple selector is expected` |
+| oxc-css-parser 0.0.6 (`90911bd`) | rejects: `simple selector is expected` |
 
 ## Spec Context
 

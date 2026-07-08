@@ -13,7 +13,7 @@
 | postcss 8.5.16 | accepts |
 | prettier CSS parser 3.9.4 | accepts |
 | lightningcss 1.32.0 | rejects: `Unexpected token Comma` |
-| oxc-css-parser 0.0.5 (`e4c405e`) | rejects: `expect token <ident>, but found &` |
+| oxc-css-parser 0.0.6 (`90911bd`) | rejects: `expect token <ident>, but found &` |
 
 ## Triage Note
 
